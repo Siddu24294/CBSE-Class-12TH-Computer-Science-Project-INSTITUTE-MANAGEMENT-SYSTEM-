@@ -12,7 +12,7 @@ Conn.py     ->a file which contains functions defined to :
                         b)create the database required with commands and data from commands.txt.
                         c)create a tabular display of data.
 Main.py     ->A file where all the above files are imported and the main executable program is written.
-The definations used in ad,st,fe are pretty similar and easy to understand I think...☺
+The definations used in ad,st,fe are pretty similar and easy to understand I think...😜
 
 
 CAUTION:All the files are to be stored in the same folder and the file to be run(i.e. the executable one) is MAIN.py.

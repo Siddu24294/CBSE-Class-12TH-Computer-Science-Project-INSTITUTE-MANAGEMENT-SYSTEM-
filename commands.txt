@@ -1,0 +1,62 @@
+create database Student_management_system
+use student_management_system
+create table admission(adm_id int primary key,Name varchar(20) not null,Class int not null,DOB date not null,BloodGrp varchar(3),Phone_No varchar(10),Address varchar(100))
+create table fees(adm_id int primary key ,Name varchar(20) not null,Class int not null,Pending_fees int(5) not null)
+create table student(adm_id int primary key,Name varchar(20) not null,Class int not null,Rollno int not null,Stream varchar(30) not null,Marks_out_of_100 int not null)
+1,'Basak Anirudha',12,'2002-09-19','ab+','9907184053','Boston'
+2,'Lakeisha',12,'1999-04-02','ab+','9907182866','Moscow'
+3,'Bambode R K',12,'2002-07-31','ab+','9907182935','Ny'
+4,'Varsha',12,'1999-04-18','ab+','9907182948','Heaven'
+5,'Arya S N',12,'2001-07-22','ab+','9907182877','Ny'
+6,'Azazali',12,'2001-11-26','ab+','9907182850','Boston'
+7,'Roxanne',12,'1999-08-26','ab+','9907182920','Ny'
+8,'Baghel R K',12,'2002-05-03','ab+','9907183602','Boston'
+9,'Mohini',12,'2000-01-08','ab+','9907183630','Ny'
+10,'Vimala',12,'2000-10-11','ab+','9907182849','Rome'
+11,'Bandhe Umesh',12,'2002-08-18','ab+','9907182926','Heaven'
+12,'Sharlene',12,'2001-02-07','ab+','9907182384','Heaven'
+13,'Georgiana',12,'1999-05-27','ab+','9907183623','Boston'
+14,'Amrit M L',12,'2001-03-03','ab+','9907183571','Heaven'
+15,'Anna',12,'2000-12-11','ab+','9907183054','Heaven'
+16,'Arun Kumar',12,'2001-03-13','ab+','9907182931','Moscow'
+17,'Sally',12,'1999-01-11','ab+','9907182231','Boston'
+18,'Ashok Kumar (Dr)',12,'2001-08-24','ab+','9907182854','Heaven'
+19,'Jane',12,'1999-04-28','ab+','9907182851','Moscow'
+1,'Basak Anirudha',12,11,'Computer Science',90
+2,'Lakeisha',12,14,'Architecture',23
+3,'Bambode R K',12,9 ,'Computer Science',32
+4,'Varsha',12,19,'Agriculture',56
+5,'Arya S N',12,4 ,'Commerce',78
+6,'Azazali',12,6 ,'Commerce',34
+7,'Roxanne',12,16,'Architecture',78
+8,'Baghel R K',12,8 ,'Commerce',98
+9,'Mohini',12,15,'Agriculture',45
+10,'Vimala',12,20,'Computer Science',73
+11,'Bandhe Umesh',12,10,'Agriculture',85
+12,'Sharlene',12,18,'Architecture',25
+13,'Georgiana',12,12,'Agriculture',85
+14,'Amrit M L',12,1 ,'Commerce',96
+15,'Anna',12,2 ,'Computer Science',74
+16,'Arun Kumar',12,3 ,'Commerce',84
+17,'Sally',12,17,'P.E.',91
+18,'Ashok Kumar (Dr)',12,5 ,'Architecture',100
+19,'Jane',12,13,'P.E.',24
+1 ,'Basak Anirudha',12,1073
+2 ,'Lakeisha',12,150
+3 ,'Bambode R K',12,150
+4 ,'Varsha',12,1073
+5 ,'Arya S N',12,5000
+6 ,'Azazali',12,1155
+7 ,'Roxanne',12,1073
+8 ,'Baghel R K',12,955
+9 ,'Mohini',12,7500
+10,'Vimala',12,1155
+11,'Bandhe Umesh',12,7500
+12,'Sharlene',12,150
+13,'Georgiana',12,7500
+14,'Amrit M L',12,5000
+15,'Anna',12,1155
+16,'Arun Kumar',12,765
+17,'Sally',12,7500
+18,'Ashok Kumar (Dr)',12,5000
+19,'Jane',12,1073
